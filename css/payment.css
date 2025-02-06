@@ -1,6 +1,6 @@
 /*Background*/
 body{
-  background: url('/images/cover7.jpg');
+  background:rgb(145, 129, 50);
 }
 
 
@@ -9,6 +9,7 @@ body{
 #paymentForm {
     width: 300px;
     margin: 0 auto;
+  
   }
   
   /* Styling for form groups */

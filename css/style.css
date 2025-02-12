@@ -340,7 +340,7 @@ button:active {
 
 /* Mobile Responsive */
 @media (max-width: 600px) {
-    button {
+    .arrows button {
         font-size: 24px; /* Smaller buttons for mobile */
         padding: 10px 14px;
     }

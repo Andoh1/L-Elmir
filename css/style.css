@@ -338,37 +338,7 @@ button:active {
     z-index: 1;
 }
 
-/* Mobile Responsive */
-@media (max-width: 600px) {
-    .arrows button {
-        position: absolute;
-    top: 50%;
-    z-index: 100;
-    width: 300px;
-    max-width: 30%;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    cursor: pointer;
-    justify-content: space-between;
-    padding: 20px;
-    border: none;
-    
-    font-family: monospace;
-    font-weight: bold;
-    transition: .1s;
-    display: block;
-  background-color: #ffffff;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-size: 35px;
-  color: #001a2e;
-  height: 70px;
-  width: 70px;
-  cursor: pointer;
-    }
-}
+
 
 /* animation text in first item */
 

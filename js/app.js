@@ -73,36 +73,5 @@ let calcScrollValue = () => {
   window.onload = calcScrollValue;
 
 
+  
 
-//Email--------------------------------------------------------
-
-  document.getElementById("contactForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent page reload
-
-    // Initialize EmailJS with your public key
-    emailjs.init("JjlXbGTaMbY65SjDB"); // Replace with your EmailJS public key
-
-    // Get form values
-    let name = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-    let message = document.getElementById("message").value;
-
-
-
-
-     // EmailJS parameters
-     let params = {
-      name: name,
-      email: email,  // This will be used in "Reply-To"
-      message: message,
-  };
-
-    // Send email
-    emailjs.send("service_3pd49vk","template_yxgl5fk", params)
-    .then(function(response) {
-        alert("✅ Your message has been sent successfully!");
-        document.getElementById("contactForm").reset(); // Clear the form
-    }, function(error) {
-        alert("❌ Error sending message. Please try again.");
-    });
-});

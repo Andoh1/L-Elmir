@@ -1,22 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
+
 .about-us {
   display: flex;
   align-items: center;
   height: 100vh;
   width: 100%;
-  padding: 90px 0;
+  padding: 80px 0;
   background: #fff;
+  margin: 10px auto;
 }
 .pic {
   height: auto;
   width: 400px;
   border-radius: 12px;
+  margin: 30px ;
+  margin-top: 100px;
 }
 .about {
   width: 1130px;
@@ -28,18 +26,29 @@
 }
 .text {
   width: 540px;
+  display: inline-block;
+  margin-left: 10px;
+  padding-top: 5px;
 }
-.text h2 {
+.text h3 {
   color: #333;
-  font-size: 90px;
+  font-size: 50px;
   font-weight: 600;
   margin-bottom: 10px;
+  margin-left:5px ;
+  margin-top: -20px;
 }
+
+#h3{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .text h5 {
   color: #333;
   font-size: 22px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-left: 5px;
 }
 span {
   color: #4070f4;

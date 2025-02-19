@@ -9,11 +9,16 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
+    
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/slider.css">
    
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -35,10 +40,8 @@
 
                     <li>   <a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
-
-                    <li><a href="#programs">Programs</a></li>
-                  
-                    <li><a href="/index/gallery.html">Gallery</a></li>
+                      <li><a href="#contact">Contact Us</a></li>
+                  <li><a href="/index/gallery.html">Gallery</a></li>
                     <li><a id="donate" href="/index/payment.html" target="blank">Donate</a></li>
                 </ul>
             </div>
@@ -128,7 +131,7 @@
 
     <section class="about-us"id="about">
         <div class="about">
-          <img src="/images/about.jpg" class="pic" />
+          
           <div class="text">
             <h3 id="h3">ABOUT US</h3>
             <h5>L'elmir <span>to the world</span></h5>
@@ -191,14 +194,114 @@
 
 
 
-        
+    
+
+<!--slider-->
+<section id="services">
+    <div class="container">
+      <h3 class="text-center section-subheading">- SERVICES-</h3>
+      <h1 class="text-center section-heading">KINDLY SELECT A PACKAGE IN THE SLIDER BELOW TO 
+        <a href="/index/team.html" class="team">DONATE</a></h1>
+    </div>
+    <div class="container">
+      <div class="swiper services-slider">
+        <div class="swiper-wrapper">
+          <!-- Slide-start -->
+          <div class="swiper-slide services-slide">
+            <div class="services-slide-img">
+              <img src="/images/cover1.jpg" alt="services">
+            </div>
+            <div class="services-slide-content">
+            
+              <div class="services-slide-content-bottom">
+            
+               
+              </div>
+            </div>
+          </div>
+          <!-- Slide-end -->
+          <!-- Slide-start -->
+          <div class="swiper-slide services-slide">
+            <div class="services-slide-img">
+              <img src="/images/shoe-1.jpg" alt="services">
+            </div>
+            <div class="services-slide-content">
+              
+              <div class="services-slide-content-bottom">
+              
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- Slide-end -->
+          <!-- Slide-start -->
+          <div class="swiper-slide services-slide">
+            <div class="services-slide-img">
+              <img src="/images/bag-1.jpg" alt="services">
+            </div>
+            <div class="services-slide-content">
+
+              <div class="services-slide-content-bottom">
+              
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- Slide-end -->
+          <!-- Slide-start -->
+          <div class="swiper-slide services-slide">
+            <div class="services-slide-img">
+              <img src="/images/camera-1.jpg" alt="services">
+            </div>
+            <div class="services-slide-content">
+            
+              <div class="services-slide-content-bottom">
+               
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- Slide-end -->
+          <!-- Slide-start -->
+          <div class="swiper-slide services-slide">
+            <div class="services-slide-img">
+              <img src="/images/headphone-2.jpg" alt="services">
+            </div>
+            <div class="services-slide-content">
+
+              <div class="services-slide-content-bottom">
+                
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- Slide-end -->
+          
+        </div>
+
+        <div class="services-slider-control">
+          <div class="swiper-button-prev slider-arrow">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+          </div>
+          <div class="swiper-button-next slider-arrow">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </div>
+   
+  </section>
 
 
-        
+ 
+
+ 
 
 
-
-<!--join us today-->
+   <!--join us today-->
 
 <div class="join-service" id="join-service">
 
@@ -245,8 +348,6 @@
 
 
 
-
- 
 
 <!-- ------------------------------  Counter  ---------------------------------- -->
 <div class="contercontent">
@@ -295,11 +396,15 @@
 
 
 
+
+   
+
+
    
 
       <!---------------------------- contact ------------------- -->
     
-      <div class="contact-container">
+      <div class="contact-container" id="contact">
         <div class="content">
           <div class="left-side">
             <div class="address details">
@@ -378,7 +483,7 @@
             <p>Greater Accra</p>
             <p>Ghana</p>
 
-            <p class="email">lelmir2023@gmail.com</p>
+            <p class="phone">+233205892419</p>
             <p class="phone">+233553445414</p>
         </div>
         <div class="footer-col">
@@ -442,9 +547,14 @@
         }
     }
 </script>
+
+ 
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
 
-
+<script src="/js/slider.js"></script>
     <script src="/js/app.js"></script>
 </body>
 </html>

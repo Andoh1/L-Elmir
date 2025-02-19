@@ -4,7 +4,7 @@ function payWithPaystack(e) {
   e.preventDefault();
 
   let handler = PaystackPop.setup({
-    key: '<Replace with your Api Key>', // Replace with your public key
+    key: 'pk_test_0b5d58805666b3aac2f88f7a5906962f2652b085', // Replace with your public key
     email: document.getElementById("email-address").value,
     amount: document.getElementById("amount").value * 100,
     currency: 'GHS',

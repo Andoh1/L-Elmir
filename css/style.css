@@ -8,6 +8,7 @@ body{
     margin: 0;
     font-family: Poppins, sans-serif;
     
+    
 }
 
 a{
@@ -188,9 +189,9 @@ a{
 
 /* carousel */
 .carousel{
-    height: 70vh;
+    height: 80vh;
     padding-top: 150px;
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
     position: relative;
     
@@ -206,7 +207,7 @@ a{
 }
 .carousel .list .item img{
     width: 100%;
-    height: 150%;
+    height: 100%;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -527,11 +528,12 @@ button:active {
 /* ************************************ Aims and objectives   ************************** */
 .aims-service{
     width: 100%;
-    padding: 2px 0;
-    background-color: #F8F9FA;
+    padding: 5px 0;
+    background-color: whitesmoke;
     text-align: center;
     box-sizing: border-box;
-    margin-top: -170px;
+    margin-top: -190px;
+   
     
 }
 .aims-service h5{
@@ -611,10 +613,13 @@ button:active {
 .join-service{
     width: 100%;
     padding: 2px;
-    background-color: #F8F9FA;
-    text-align: center;
+   align-items: center;
     box-sizing: border-box;
-    margin-top: 5px;
+    margin-top: 0px;
+    margin-bottom: -80px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+  
    
     
 }
@@ -622,11 +627,15 @@ button:active {
     color: rgb(0, 191, 255);
     letter-spacing: 2px;
     font-weight: 600;
+    
+   
 }
 .join-service h1 {
     font-size: 40px;
     font-weight: 600;
     padding-top: 10px;
+    text-align: center;
+   
 }
 
 /* details service */
@@ -639,6 +648,8 @@ button:active {
 }
 .details .info {
     padding: 0 15px;
+    text-align: center;
+
 }
 .details .info .logo {
     padding: 34px;
@@ -648,12 +659,16 @@ button:active {
     border-radius: 500px;
     color: white;
     font-size: 30px;
+   
+
 }
 .details .info #head {
     padding: 20px 0 10px;
     color: black;
     font-weight: 500;
     font-size: 20px;
+    text-align: center;
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -694,13 +709,14 @@ button:active {
     box-sizing: border-box;
     display: flex;
     background-color:aliceblue;
-    margin-bottom: 30px;
-    margin-top: 70px;
+   
+
+    margin-top: 80px;
 }
 .counterbox {
     width: 100%;
     height: 250px;
-    
+    padding-bottom: 50px;
    
 }
 
@@ -750,9 +766,10 @@ button:active {
 
 /************************************** Contact **********************************************/
 .contact-container{
-    width: 95%;
-    background: #fff;
-    border-radius: 6px;
+    width: 91.1%;
+  
+    
+    border-radius: 0px;
     padding: 20px 100px 30px 40px;
     box-shadow: 0 5px 10px rgba(57, 209, 19, 0.2);
 
@@ -781,7 +798,7 @@ button:active {
     right: -15px;
     top: 50%;
     transform: translateY(-50%);
-    background: #afafb6;
+    background: #000000;
   }
   .content .left-side .details{
     margin: 14px;
@@ -789,7 +806,7 @@ button:active {
   }
   .content .left-side .details i{
     font-size: 30px;
-    color: rgb(54, 21, 54);
+    color: rgb(0, 0, 0);
     margin-bottom: 10px;
   }
   .content .left-side .details .topic{
@@ -799,7 +816,7 @@ button:active {
   .content .left-side .details .text-one,
   .content .left-side .details .text-two{
     font-size: 14px;
-    color: #afafb6;
+    color: #262636;
   }
   .contact-container .content .right-side{
     width: 75%;
@@ -822,7 +839,7 @@ button:active {
     border: none;
     outline: none;
     font-size: 16px;
-    background: #F0F1F8;
+    background: white ;
     border-radius: 6px;
     padding: 0 15px;
     resize: none;
@@ -856,7 +873,8 @@ button:active {
   @media (max-width: 950px) {
     .contact-container{
       width: 90%;
-      padding: 30px 40px 40px 35px ;
+      padding: 30px 40px 40px 20px ;
+      
     }
     .contact-container .content .right-side{
      width: 75%;
